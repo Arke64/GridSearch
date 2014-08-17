@@ -129,10 +129,13 @@ bool find_path(cell* current_location = nullptr, cell* last_location = nullptr) 
 int main(int argc, char** argv) {
 	while (fill(cin)) {
 		start_calc = chrono::steady_clock::now();
-		if (find_path(find_start()))
+
+		if (find_path(find_start())) {
 			print(cout);
-		else
-			cout << "No alibi" << endl;
+		}
+		else {
+			cout << "No path." << endl;
+		}
 	}
 
 	return 0;
