@@ -6,6 +6,9 @@
 		<ProjectGuid>{205EF8D8-3E87-41EE-AECF-1C736CCE8809}</ProjectGuid>
 	</PropertyGroup>
 	<ItemGroup>
-		<ClCompile Include="Main.cpp" />
+		<ClCompile Include="..\src\Main.cpp" />
+	</ItemGroup>
+	<ItemGroup>
+		<Text Include="..\examples\Test Cases.txt" />
 	</ItemGroup>
 </Project>
