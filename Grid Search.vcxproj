@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(CONFIG_PATH)\VC Executable.props" />
-  <PropertyGroup Label="Globals">
-    <ProjectGuid>{205EF8D8-3E87-41EE-AECF-1C736CCE8809}</ProjectGuid>
-  </PropertyGroup>
-  <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-  </ItemGroup>
+
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$(CONFIG_PATH)\VC Console.props" />
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{205EF8D8-3E87-41EE-AECF-1C736CCE8809}</ProjectGuid>
+	</PropertyGroup>
+	<ItemGroup>
+		<ClCompile Include="Main.cpp" />
+	</ItemGroup>
 </Project>
