@@ -44,7 +44,7 @@ bool fill(istream& source) {
 
 	if (length < 1)
 		return false;
-	
+
 	if (cells)
 		delete[] cells;
 
